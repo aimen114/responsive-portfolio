@@ -92,7 +92,7 @@ img {
   .transparent-card {
     margin-left: 10px;
     margin-right: 10px;
-    padding: 5px;
+    padding: 15px;
   }
   .project-heading {
     font-size: 25px;
@@ -102,5 +102,9 @@ img {
   }
   .project-desc {
     text-align: center;
+  }
+  .center-btn {
+    display: flex;
+    justify-content: center;
   }
 }
