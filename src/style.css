@@ -16,9 +16,15 @@ body {
 
 h1 {
   font-family: "Julius Sans One", sans-serif;
+  font-size: 80px;
 }
 h2 {
   font-family: "Crimson Text", serif;
+  font-size: 40px;
+}
+.hero {
+  text-align: center;
+  margin: 100px auto;
 }
 .myButton {
   padding: 12px 32px;
