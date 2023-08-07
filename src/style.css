@@ -34,7 +34,7 @@ img {
   border-radius: 6px;
   border: none;
   background: linear-gradient(180deg, #8d0d46 0%, rgba(0, 0, 0, 0.584) 100%);
-  box-shadow: 10px 10px 9px rgba(0, 0, 0, 1);
+  box-shadow: 10px 10px 9px rgb(0, 0, 0);
   color: white;
   font-family: "Crimson Text", serif;
 }
