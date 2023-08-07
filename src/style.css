@@ -1,6 +1,5 @@
 html,
 body {
-  height: 100%;
   margin: 0;
   padding: 0;
 }
@@ -21,6 +20,10 @@ h1 {
 h2 {
   font-family: "Crimson Text", serif;
   font-size: 40px;
+  font-weight: normal;
+}
+img {
+  width: 300px;
 }
 .hero {
   text-align: center;
@@ -51,4 +54,53 @@ h2 {
 }
 .navbar-toggler {
   border: none;
+}
+.project-desc {
+  margin: 10px auto;
+}
+.project-heading {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 40px;
+}
+.project-para {
+  font-family: "Crimson Text", serif;
+  font-size: 40px;
+}
+.transparent-card {
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-bottom: 70px;
+  padding: 30px;
+  border-radius: 6px;
+  border: 4px solid rgba(255, 255, 255, 0.41);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 5px 6px 4px 0px rgba(0, 0, 0, 0.88);
+  min-width: 250px;
+}
+
+.container .myButton {
+  margin: 10px auto;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .transparent-card {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  .project-heading {
+    font-size: 25px;
+  }
+  .project-para {
+    font-size: 20px;
+  }
+  .project-desc {
+    text-align: center;
+  }
 }
