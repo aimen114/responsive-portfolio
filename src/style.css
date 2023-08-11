@@ -131,6 +131,10 @@ img {
 .transparent-card-work img {
   padding: 0%;
 }
+.container img {
+  padding: 0%;
+  width: 50%;
+}
 
 .work-desc {
   margin-top: 10px;
