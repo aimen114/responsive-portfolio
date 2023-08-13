@@ -22,7 +22,7 @@ h2 {
   font-size: 40px;
   font-weight: normal;
 }
-img {
+.width-300 {
   width: 300px;
 }
 .hero {
@@ -107,6 +107,7 @@ img {
   font-size: 25px;
 }
 .transparent-card {
+  text-align: center;
   margin-left: 110px;
   margin-right: 110px;
   margin-bottom: 70px;
@@ -125,13 +126,13 @@ img {
   border: 4px solid rgb(255, 255, 255);
   background: rgba(255, 255, 255, 0.127);
   box-shadow: 5px 6px 4px 0px rgba(0, 0, 0, 0.88);
-  min-width: 250px;
+
   text-align: center;
 }
 .transparent-card-work img {
   padding: 0%;
 }
-.container img {
+.contact-img {
   padding: 0%;
   width: 50%;
 }
@@ -181,9 +182,14 @@ img {
   .transparent-card-work {
     margin-left: 7%;
     margin-right: 7%;
-    padding: 10px;
+    padding: 15px;
     display: flex;
-    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .transparent-card-work img {
+    margin: 5px;
   }
 
   .project-heading {
