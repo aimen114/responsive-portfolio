@@ -22,6 +22,7 @@ h2 {
   font-size: 40px;
   font-weight: normal;
 }
+
 .width-300 {
   width: 300px;
 }
@@ -92,6 +93,9 @@ h2 {
 .navbar-toggler {
   border: none;
 }
+.active {
+  opacity: 0.7;
+}
 .desc-text {
   margin: 10px auto;
 }
@@ -107,9 +111,8 @@ h2 {
   font-size: 25px;
 }
 .transparent-card {
-  text-align: center;
-  margin-left: 110px;
-  margin-right: 110px;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-bottom: 70px;
   padding: 30px;
   border-radius: 6px;
@@ -137,11 +140,6 @@ h2 {
   width: 50%;
 }
 
-.work-desc {
-  margin-top: 10px;
-  font-family: "Julius Sans One", sans-serif;
-}
-
 .container .myButton {
   margin: 10px auto;
 }
@@ -159,8 +157,23 @@ h2 {
 .img-shadow {
   box-shadow: 5px 6px 4px 0px rgba(0, 0, 0, 0.88);
 }
+.img-hover:hover {
+  filter: brightness(60%);
+}
 .work-heading {
   font-size: 40px;
+}
+.work-desc {
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  font-family: "Julius Sans One", sans-serif;
+}
+.work-desc:hover {
+  color: white;
+  margin-top: 10px;
+  font-family: "Julius Sans One", sans-serif;
+  text-decoration: underline white;
 }
 
 @media (max-width: 992px) {
@@ -171,6 +184,7 @@ h2 {
     font-size: 20px;
   }
   .transparent-card {
+    text-align: center;
     margin-left: 7%;
     margin-right: 7%;
     padding: 15px;
@@ -221,11 +235,7 @@ h2 {
     margin: 10%;
   }
   .email-me-btn {
-    padding-left: 4em;
-    padding-right: 4em;
-  }
-  .myIconButton {
-    padding-top: 0.25em;
-    padding-bottom: 0.25em;
+    padding-left: 35px;
+    padding-right: 35px;
   }
 }
