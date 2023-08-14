@@ -163,6 +163,9 @@ h2 {
 .work-heading {
   font-size: 40px;
 }
+.work-line {
+  text-decoration: none;
+}
 .work-desc {
   text-decoration: none;
   color: white;
